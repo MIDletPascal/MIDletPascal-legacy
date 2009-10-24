@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StaticLibrary - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\NIKA~1\LOCALS~1\Temp\RSP6A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/StaticLibrary.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\users\Niksa\Projects\ProjectMobilePascal\Compiler\parser\parser.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NIKA~1\LOCALS~1\Temp\RSP6A.tmp" 
+Creating temporary file "C:\DOCUME~1\NIKA~1\LOCALS~1\Temp\RSP6B.tmp" with contents
+[
+/nologo /out:"Debug\StaticLibrary.lib" 
+.\Debug\block.obj
+.\Debug\bytecode.obj
+.\Debug\check_class.obj
+.\Debug\check_code.obj
+.\Debug\classgen.obj
+.\Debug\classloader.obj
+.\Debug\classresolver.obj
+.\Debug\constant_pool.obj
+.\Debug\convert_md.obj
+.\Debug\error.obj
+.\Debug\file.obj
+.\Debug\identifier.obj
+.\Debug\inlinejsr.obj
+.\Debug\jar.obj
+.\Debug\jar_support.obj
+.\Debug\lex.yy.obj
+.\Debug\main.obj
+.\Debug\memory.obj
+.\Debug\name_table.obj
+.\Debug\parser.obj
+.\Debug\preverify.obj
+.\Debug\static_entry.obj
+.\Debug\stdpas.obj
+.\Debug\string_list.obj
+.\Debug\strings.obj
+.\Debug\stubs.obj
+.\Debug\sys_support.obj
+.\Debug\type.obj
+.\Debug\type_list.obj
+.\Debug\unit.obj
+.\Debug\utf.obj
+.\Debug\util.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\NIKA~1\LOCALS~1\Temp\RSP6B.tmp"
+<h3>Output Window</h3>
+Compiling...
+parser.c
+C:\users\Niksa\Projects\ProjectMobilePascal\Compiler\parser\parser.c(174) : warning C4101: 'filepos' : unreferenced local variable
+C:\users\Niksa\Projects\ProjectMobilePascal\Compiler\parser\parser.c(3671) : warning C4101: 'params' : unreferenced local variable
+C:\users\Niksa\Projects\ProjectMobilePascal\Compiler\parser\parser.c(4518) : warning C4244: '=' : conversion from 'float ' to 'int ', possible loss of data
+C:\users\Niksa\Projects\ProjectMobilePascal\Compiler\parser\parser.c(5141) : warning C4244: '=' : conversion from 'float ' to 'int ', possible loss of data
+C:\users\Niksa\Projects\ProjectMobilePascal\Compiler\parser\parser.c(5315) : warning C4098: 'create_variable_bytecode' : 'void' function returning a value
+C:\users\Niksa\Projects\ProjectMobilePascal\Compiler\parser\parser.c(5740) : warning C4244: 'function' : conversion from 'long ' to 'char ', possible loss of data
+C:\users\Niksa\Projects\ProjectMobilePascal\Compiler\parser\parser.c(5745) : warning C4244: 'function' : conversion from 'long ' to 'short ', possible loss of data
+Creating library...
+
+
+
+<h3>Results</h3>
+StaticLibrary.lib - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

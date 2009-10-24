@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ProjectMobilePascal - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~2\Owner\LOCALS~1\Temp\RSPA0.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/ProjectMobilePascal.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\users\niksa\projects\projectmobilepascal\Compiler\lex\lex.yy.c"
+]
+Creating command line "cl.exe @C:\DOCUME~2\Owner\LOCALS~1\Temp\RSPA0.tmp" 
+Creating temporary file "C:\DOCUME~2\Owner\LOCALS~1\Temp\RSPA1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ProjectMobilePascal.pdb" /debug /machine:I386 /out:"Debug/ProjectMobilePascal.exe" /pdbtype:sept 
+.\Debug\lex.yy.obj
+.\Debug\error.obj
+.\Debug\memory.obj
+.\Debug\strings.obj
+.\Debug\main.obj
+.\Debug\parser.obj
+.\Debug\stdpas.obj
+.\Debug\block.obj
+.\Debug\identifier.obj
+.\Debug\name_table.obj
+.\Debug\string_list.obj
+.\Debug\type.obj
+.\Debug\type_list.obj
+.\Debug\bytecode.obj
+.\Debug\classgen.obj
+.\Debug\constant_pool.obj
+.\Debug\preverify.obj
+]
+Creating command line "link.exe @C:\DOCUME~2\Owner\LOCALS~1\Temp\RSPA1.tmp"
+<h3>Output Window</h3>
+Compiling...
+lex.yy.c
+Linking...
+stdpas.obj : error LNK2001: unresolved external symbol _canvasType
+block.obj : error LNK2001: unresolved external symbol _canvasType
+Debug/ProjectMobilePascal.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+Creating temporary file "C:\DOCUME~2\Owner\LOCALS~1\Temp\RSPA3.tmp" with contents
+[
+/nologo /o"Debug/ProjectMobilePascal.bsc" 
+.\Debug\lex.yy.sbr
+.\Debug\error.sbr
+.\Debug\memory.sbr
+.\Debug\strings.sbr
+.\Debug\main.sbr
+.\Debug\parser.sbr
+.\Debug\stdpas.sbr
+.\Debug\block.sbr
+.\Debug\identifier.sbr
+.\Debug\name_table.sbr
+.\Debug\string_list.sbr
+.\Debug\type.sbr
+.\Debug\type_list.sbr
+.\Debug\bytecode.sbr
+.\Debug\classgen.sbr
+.\Debug\constant_pool.sbr
+.\Debug\preverify.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~2\Owner\LOCALS~1\Temp\RSPA3.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ProjectMobilePascal.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
