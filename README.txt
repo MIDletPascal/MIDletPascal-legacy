@@ -1,5 +1,10 @@
-In this SVN repository you will find the different compiler versions available under the following structure (useful for quick reference):
+In this SVN repository you will find the different compiler versions (and it's RTL stubs) available under the following structure (useful for quick reference):
 
+
+
+
+COMPILERS
+---------
 
 /MPC.2.0.2/
   -- author/s: Niksa Orlic
@@ -51,7 +56,29 @@ In this SVN repository you will find the different compiler versions available u
   -- readme: /MPC.3.0.IDE/readme.txt (english)
 
 
+
+
+RTL STUBS
+---------
+
+
+/MPS.2.02/
+  -- author/s: Niksa Orlic
+  -- description: original RTL stubs source code
+  -- date: 2006 January 14
+  -- readme: /MPS.2.02/readme.txt (english)
+
+
+/MPS.3.0/
+  -- author/s: Niksa Orlic & Javier Santo Domingo
+  -- description: official 3.0 RTL stubs source code; based on MPS.2.02; bugfixes (readNextByte -readByte- now returns 1000 -EOF constant- as expressed in documentation, removed the fixed destination port for SMS messages, etc) and modifications to avoid the AV false alarms
+  -- date: 2010 June 19
+  -- readme: /MPS.3.0/readme.txt (english)
+
+
+
+
 Enjoy,
 
 Javier Santo Domingo
-25.may.2010
+19.june.2010

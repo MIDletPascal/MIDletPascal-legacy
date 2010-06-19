@@ -1,0 +1,154 @@
+// Decompiled by DJ v3.7.7.81 Copyright 2004 Atanas Neshkov  Date: 14.9.2005 19:00:10
+// Home Page : http://members.fortunecity.com/neshkov/dj.html  - Check often for new version!
+// Decompiler options: fullnames definits debugmode 
+// Class Version:      46.0
+
+import javax.microedition.lcdui.Alert;
+import javax.microedition.lcdui.AlertType;
+import javax.microedition.lcdui.Command;
+import javax.microedition.lcdui.CommandListener;
+import javax.microedition.lcdui.Display;
+import javax.microedition.lcdui.Displayable;
+import javax.microedition.lcdui.Form;
+import javax.microedition.lcdui.Image;
+import javax.microedition.lcdui.List;
+import javax.microedition.lcdui.TextBox;
+import javax.microedition.midlet.MIDlet;
+
+// flag ACC_SUPER is set
+public class FW extends javax.microedition.midlet.MIDlet
+    implements javax.microedition.lcdui.CommandListener
+{
+    // Constants:          159
+    // Interfaces:         1
+    // Fields:             11
+    // Methods:            6
+    // Class Attributes:   0
+
+
+    // Decompiling method: <init>  Signature: ()V
+    // Max stack: 2, #locals: 1, #params: 1
+    // Code length: 15 bytes, Code offset: 2170
+    // Parameter  0 added: Name this Type LFW; At 0 15 Range 0 14 Init 0 fixed
+    // RetValue   1 added: Name <returnValue> Type V At 0 15 Range 0 14 Init 0 fixed
+    public FW()
+    {
+        /* super(); */
+        threadStarted = false;
+        m = null;
+        /* return; */
+    }
+
+    // Decompiling method: startApp  Signature: ()V
+    // Max stack: 6, #locals: 2, #params: 1
+    // Code length: 218 bytes, Code offset: 2211
+    // Exception table: 1 entries
+    //           start  143 end 151 handler 154 type java.lang.Exception
+    // Parameter  0 added: Name this Type LFW; At 0 218 Range 0 217 Init 0 fixed
+    // RetValue   2 added: Name <returnValue> Type V At 0 218 Range 0 217 Init 0 fixed
+    // LocalVar   1 added: Name exception Type Ljava/lang/Exception; At 154 1 Range 154 154 Init 154
+    public void startApp()
+    {
+        MP = 0;
+        display = javax.microedition.lcdui.Display.getDisplay(this);
+        fw = this;
+        LC = null;
+        if(m == null)
+        {
+            m = new M();
+            M.T = m;
+            M.I = javax.microedition.lcdui.Image.createImage(m.getWidth(), m.getHeight());
+            M.G = M.I.getGraphics();
+            M.KC = 0;
+            TB = new TextBox("", "", 2, 0);
+            A = new Alert("", "", null, javax.microedition.lcdui.AlertType.INFO);
+            L = new List("", 3);
+            display.setCurrent(m);
+            CD = m;
+            try
+            {
+                m.setCommandListener(this);
+            }
+            catch(java.lang.Exception exception) { }
+            F = new Form("");
+            F.setCommandListener(this);
+        } else
+        {
+            m.repaint();
+            m.serviceRepaints();
+        }
+        if(!threadStarted)
+        {
+            (new Thread(m)).start();
+            threadStarted = true;
+        }
+        /* return; */
+    }
+
+    // Decompiling method: pauseApp  Signature: ()V
+    // Max stack: 1, #locals: 1, #params: 1
+    // Code length: 5 bytes, Code offset: 2519
+    // Parameter  0 added: Name this Type LFW; At 0 5 Range 0 4 Init 0 fixed
+    // RetValue   1 added: Name <returnValue> Type V At 0 5 Range 0 4 Init 0 fixed
+    public void pauseApp()
+    {
+        MP = -1;
+        /* return; */
+    }
+
+    // Decompiling method: destroyApp  Signature: (Z)V
+    // Max stack: 2, #locals: 2, #params: 2
+    // Code length: 46 bytes, Code offset: 2550
+    // Parameter  0 added: Name this Type LFW; At 0 46 Range 0 45 Init 0 fixed
+    // Parameter  1 added: Name flag Type Z At 0 46 Range 0 45 Init 0
+    // RetValue   2 added: Name <returnValue> Type V At 0 46 Range 0 45 Init 0 fixed
+    public void destroyApp(boolean flag)
+    {
+        m = null;
+        M.I = null;
+        M.G = null;
+        CD = null;
+        F = null;
+        TB = null;
+        A = null;
+        L = null;
+        fw = null;
+        LC = null;
+        notifyDestroyed();
+        /* return; */
+    }
+
+    // Decompiling method: commandAction  Signature: (Ljavax/microedition/lcdui/Command;Ljavax/microedition/lcdui/Displayable;)V
+    // Max stack: 1, #locals: 3, #params: 3
+    // Code length: 5 bytes, Code offset: 2622
+    // Parameter  0 added: Name this Type LFW; At 0 5 Range 0 4 Init 0 fixed
+    // Parameter  1 added: Name command Type Ljavax/microedition/lcdui/Command; At 0 5 Range 0 4 Init 0
+    // Parameter  2 added: Name displayable Type Ljavax/microedition/lcdui/Displayable; At 0 5 Range 0 4 Init 0
+    // RetValue   3 added: Name <returnValue> Type V At 0 5 Range 0 4 Init 0 fixed
+    public void commandAction(javax.microedition.lcdui.Command command, javax.microedition.lcdui.Displayable displayable)
+    {
+        LC = command;
+        /* return; */
+    }
+
+    public boolean threadStarted = false;
+    public M m = null;
+    public static FW fw = null;
+    public static int MP = 0;
+    public javax.microedition.lcdui.Display display = null;
+    public static javax.microedition.lcdui.Command LC = null;
+    public static javax.microedition.lcdui.Displayable CD = null;
+    public static javax.microedition.lcdui.Form F = null;
+    public static javax.microedition.lcdui.TextBox TB = null;
+    public static javax.microedition.lcdui.Alert A = null;
+    public static javax.microedition.lcdui.List L = null;
+
+    // Decompiling method: <clinit>  Signature: ()V
+    // Max stack: 1, #locals: 0, #params: 0
+    // Code length: 5 bytes, Code offset: 2653
+    // RetValue   0 added: Name <returnValue> Type V At 0 5 Range 0 4 Init 0 fixed
+    static 
+    {
+        /* fw = null; */
+    }
+}

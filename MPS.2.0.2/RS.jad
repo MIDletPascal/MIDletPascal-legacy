@@ -1,0 +1,287 @@
+// Decompiled by DJ v3.7.7.81 Copyright 2004 Atanas Neshkov  Date: 14.9.2005 18:26:08
+// Home Page : http://members.fortunecity.com/neshkov/dj.html  - Check often for new version!
+// Decompiler options: packimports(3) annotate_fullnames definits deadcode debugmode 
+// Class Version:      46.0
+
+import javax.microedition.rms.RecordStore;
+
+// flag ACC_SUPER is set
+public class RS
+{
+    // Constants:          75
+    // Interfaces:         0
+    // Fields:             0
+    // Methods:            10
+    // Class Attributes:   0
+
+
+    // Decompiling method: <init>  Signature: ()V
+    // Max stack: 1, #locals: 1, #params: 1
+    // Code length: 5 bytes, Code offset: 1022
+    // Parameter  0 added: Name this Type LRS; At 0 5 Range 0 4 Init 0 fixed
+    // RetValue   1 added: Name <returnValue> Type V At 0 5 Range 0 4 Init 0 fixed
+    public RS()
+    {
+        /* super(); */
+    //    0    0:aload_0         
+    //    1    1:invokespecial   #1   <Method void Object()>
+        /* return; */
+    //    2    4:return          
+    }
+
+    // Decompiling method: j  Signature: (Ljava/lang/String;)Ljavax/microedition/rms/RecordStore;
+    // Max stack: 2, #locals: 2, #params: 1
+    // Code length: 9 bytes, Code offset: 1053
+    // Exception table: 1 entries
+    //           start  0 end 6 handler 6 type Exception
+    // Parameter  0 added: Name s Type Ljava/lang/String; At 0 9 Range 0 8 Init 0
+    // RetValue   2 added: Name <returnValue> Type Ljavax/microedition/rms/RecordStore; At 0 9 Range 0 8 Init 0 fixed
+    // LocalVar   1 added: Name exception Type Ljava/lang/Exception; At 6 1 Range 6 6 Init 6
+    public static RecordStore j(String s)
+    {
+        try
+        {
+            return RecordStore.openRecordStore(s, true);
+    //    0    0:aload_0         
+    //    1    1:iconst_1        
+    //    2    2:invokestatic    #2   <Method javax.microedition.rms.RecordStore javax.microedition.rms.RecordStore.openRecordStore(java.lang.String, boolean)>
+    //    3    5:areturn         
+        }
+        catch(Exception exception)
+    //*   4    6:astore_1        
+        {
+            return null;
+    //    5    7:aconst_null     
+    //    6    8:areturn         
+        }
+    }
+
+    // Decompiling method: L  Signature: (Ljavax/microedition/rms/RecordStore;)V
+    // Max stack: 1, #locals: 2, #params: 1
+    // Code length: 9 bytes, Code offset: 1116
+    // Exception table: 1 entries
+    //           start  0 end 4 handler 7 type Exception
+    // Parameter  0 added: Name recordstore Type Ljavax/microedition/rms/RecordStore; At 0 9 Range 0 8 Init 0
+    // RetValue   2 added: Name <returnValue> Type V At 0 9 Range 0 8 Init 0 fixed
+    // LocalVar   1 added: Name exception Type Ljava/lang/Exception; At 7 1 Range 7 7 Init 7
+    public static void L(RecordStore recordstore)
+    {
+        try
+        {
+            recordstore.closeRecordStore();
+    //    0    0:aload_0         
+    //    1    1:invokevirtual   #4   <Method void javax.microedition.rms.RecordStore.closeRecordStore()>
+        }
+    //*   2    4:goto            8
+        catch(Exception exception) { }
+    //    3    7:astore_1        
+        /* return; */
+    //    4    8:return          
+    }
+
+    // Decompiling method: L  Signature: (Ljava/lang/String;)V
+    // Max stack: 1, #locals: 2, #params: 1
+    // Code length: 9 bytes, Code offset: 1188
+    // Exception table: 1 entries
+    //           start  0 end 4 handler 7 type Exception
+    // Parameter  0 added: Name s Type Ljava/lang/String; At 0 9 Range 0 8 Init 0
+    // RetValue   2 added: Name <returnValue> Type V At 0 9 Range 0 8 Init 0 fixed
+    // LocalVar   1 added: Name exception Type Ljava/lang/Exception; At 7 1 Range 7 7 Init 7
+    public static void L(String s)
+    {
+        try
+        {
+            RecordStore.deleteRecordStore(s);
+    //    0    0:aload_0         
+    //    1    1:invokestatic    #5   <Method void javax.microedition.rms.RecordStore.deleteRecordStore(java.lang.String)>
+        }
+    //*   2    4:goto            8
+        catch(Exception exception) { }
+    //    3    7:astore_1        
+        /* return; */
+    //    4    8:return          
+    }
+
+    // Decompiling method: L  Signature: (Ljavax/microedition/rms/RecordStore;I)V
+    // Max stack: 2, #locals: 3, #params: 2
+    // Code length: 10 bytes, Code offset: 1260
+    // Exception table: 1 entries
+    //           start  0 end 5 handler 8 type Exception
+    // Parameter  0 added: Name recordstore Type Ljavax/microedition/rms/RecordStore; At 0 10 Range 0 9 Init 0
+    // Parameter  1 added: Name i Type I At 0 10 Range 0 9 Init 0
+    // RetValue   3 added: Name <returnValue> Type V At 0 10 Range 0 9 Init 0 fixed
+    // LocalVar   2 added: Name exception Type Ljava/lang/Exception; At 8 1 Range 8 8 Init 8
+    public static void L(RecordStore recordstore, int i)
+    {
+        try
+        {
+            recordstore.deleteRecord(i);
+    //    0    0:aload_0         
+    //    1    1:iload_1         
+    //    2    2:invokevirtual   #6   <Method void javax.microedition.rms.RecordStore.deleteRecord(int)>
+        }
+    //*   3    5:goto            9
+        catch(Exception exception) { }
+    //    4    8:astore_2        
+        /* return; */
+    //    5    9:return          
+    }
+
+    // Decompiling method: L  Signature: (Ljavax/microedition/rms/RecordStore;Ljava/lang/String;)I
+    // Max stack: 4, #locals: 3, #params: 2
+    // Code length: 17 bytes, Code offset: 1335
+    // Exception table: 1 entries
+    //           start  0 end 14 handler 14 type Exception
+    // Parameter  0 added: Name recordstore Type Ljavax/microedition/rms/RecordStore; At 0 17 Range 0 16 Init 0
+    // Parameter  1 added: Name s Type Ljava/lang/String; At 0 17 Range 0 16 Init 0
+    // RetValue   3 added: Name <returnValue> Type I At 0 17 Range 0 16 Init 0 fixed
+    // LocalVar   2 added: Name exception Type Ljava/lang/Exception; At 14 1 Range 14 14 Init 14
+    public static int L(RecordStore recordstore, String s)
+    {
+        try
+        {
+            return recordstore.addRecord(s.getBytes(), 0, s.length());
+    //    0    0:aload_0         
+    //    1    1:aload_1         
+    //    2    2:invokevirtual   #7   <Method byte[] java.lang.String.getBytes()>
+    //    3    5:iconst_0        
+    //    4    6:aload_1         
+    //    5    7:invokevirtual   #8   <Method int java.lang.String.length()>
+    //    6   10:invokevirtual   #9   <Method int javax.microedition.rms.RecordStore.addRecord(byte[], int, int)>
+    //    7   13:ireturn         
+        }
+        catch(Exception exception)
+    //*   8   14:astore_2        
+        {
+            return -1;
+    //    9   15:iconst_m1       
+    //   10   16:ireturn         
+        }
+    }
+
+    // Decompiling method: L  Signature: (Ljavax/microedition/rms/RecordStore;Ljava/lang/String;I)V
+    // Max stack: 5, #locals: 4, #params: 3
+    // Code length: 20 bytes, Code offset: 1409
+    // Exception table: 1 entries
+    //           start  0 end 15 handler 18 type Exception
+    // Parameter  0 added: Name recordstore Type Ljavax/microedition/rms/RecordStore; At 0 20 Range 0 19 Init 0
+    // Parameter  1 added: Name s Type Ljava/lang/String; At 0 20 Range 0 19 Init 0
+    // Parameter  2 added: Name i Type I At 0 20 Range 0 19 Init 0
+    // RetValue   4 added: Name <returnValue> Type V At 0 20 Range 0 19 Init 0 fixed
+    // LocalVar   3 added: Name exception Type Ljava/lang/Exception; At 18 1 Range 18 18 Init 18
+    public static void L(RecordStore recordstore, String s, int i)
+    {
+        try
+        {
+            recordstore.setRecord(i, s.getBytes(), 0, s.getBytes().length);
+    //    0    0:aload_0         
+    //    1    1:iload_2         
+    //    2    2:aload_1         
+    //    3    3:invokevirtual   #7   <Method byte[] java.lang.String.getBytes()>
+    //    4    6:iconst_0        
+    //    5    7:aload_1         
+    //    6    8:invokevirtual   #7   <Method byte[] java.lang.String.getBytes()>
+    //    7   11:arraylength     
+    //    8   12:invokevirtual   #10  <Method void javax.microedition.rms.RecordStore.setRecord(int, byte[], int, int)>
+        }
+    //*   9   15:goto            19
+        catch(Exception exception) { }
+    //   10   18:astore_3        
+        /* return; */
+    //   11   19:return          
+    }
+
+    // Decompiling method: Lja  Signature: (Ljavax/microedition/rms/RecordStore;)I
+    // Max stack: 1, #locals: 2, #params: 1
+    // Code length: 8 bytes, Code offset: 1500
+    // Exception table: 1 entries
+    //           start  0 end 5 handler 5 type Exception
+    // Parameter  0 added: Name recordstore Type Ljavax/microedition/rms/RecordStore; At 0 8 Range 0 7 Init 0
+    // RetValue   2 added: Name <returnValue> Type I At 0 8 Range 0 7 Init 0 fixed
+    // LocalVar   1 added: Name exception Type Ljava/lang/Exception; At 5 1 Range 5 5 Init 5
+    public static int Lja(RecordStore recordstore)
+    {
+        try
+        {
+            return recordstore.getNextRecordID();
+    //    0    0:aload_0         
+    //    1    1:invokevirtual   #11  <Method int javax.microedition.rms.RecordStore.getNextRecordID()>
+    //    2    4:ireturn         
+        }
+        catch(Exception exception)
+    //*   3    5:astore_1        
+        {
+            return -1;
+    //    4    6:iconst_m1       
+    //    5    7:ireturn         
+        }
+    }
+
+    // Decompiling method: j  Signature: (Ljavax/microedition/rms/RecordStore;I)Ljava/lang/String;
+    // Max stack: 3, #locals: 3, #params: 2
+    // Code length: 26 bytes, Code offset: 1562
+    // Exception table: 1 entries
+    //           start  0 end 22 handler 22 type Exception
+    // Parameter  0 added: Name recordstore Type Ljavax/microedition/rms/RecordStore; At 0 26 Range 0 25 Init 0
+    // Parameter  1 added: Name i Type I At 0 26 Range 0 25 Init 0
+    // RetValue   3 added: Name <returnValue> Type Ljava/lang/String; At 0 26 Range 0 25 Init 0 fixed
+    // LocalVar   2 added: Name abyte0 Type [B At 5 13 Range 5 17 Init 5
+    // LocalVar   2 added: Name exception Type Ljava/lang/Exception; At 22 1 Range 22 22 Init 22
+    public static String j(RecordStore recordstore, int i)
+    {
+        try
+        {
+            byte abyte0[] = recordstore.getRecord(i);
+    //    0    0:aload_0         
+    //    1    1:iload_1         
+    //    2    2:invokevirtual   #12  <Method byte[] javax.microedition.rms.RecordStore.getRecord(int)>
+    //    3    5:astore_2        
+            if(abyte0 == null)
+    //*   4    6:aload_2         
+    //*   5    7:ifnonnull       13
+                return "";
+    //    6   10:ldc1            #13  <String "">
+    //    7   12:areturn         
+            else
+                return new String(abyte0);
+    //    8   13:new             #14  <Class java.lang.String>
+    //    9   16:dup             
+    //   10   17:aload_2         
+    //   11   18:invokespecial   #15  <Method void String(byte[])>
+    //   12   21:areturn         
+        }
+        catch(Exception exception)
+    //*  13   22:astore_2        
+        {
+            return "";
+    //   14   23:ldc1            #13  <String "">
+    //   15   25:areturn         
+        }
+    }
+
+    // Decompiling method: j  Signature: (Ljavax/microedition/rms/RecordStore;)I
+    // Max stack: 1, #locals: 2, #params: 1
+    // Code length: 8 bytes, Code offset: 1656
+    // Exception table: 1 entries
+    //           start  0 end 5 handler 5 type Exception
+    // Parameter  0 added: Name recordstore Type Ljavax/microedition/rms/RecordStore; At 0 8 Range 0 7 Init 0
+    // RetValue   2 added: Name <returnValue> Type I At 0 8 Range 0 7 Init 0 fixed
+    // LocalVar   1 added: Name exception Type Ljava/lang/Exception; At 5 1 Range 5 5 Init 5
+    public static int j(RecordStore recordstore)
+    {
+        try
+        {
+            return recordstore.getNumRecords();
+    //    0    0:aload_0         
+    //    1    1:invokevirtual   #16  <Method int javax.microedition.rms.RecordStore.getNumRecords()>
+    //    2    4:ireturn         
+        }
+        catch(Exception exception)
+    //*   3    5:astore_1        
+        {
+            return 0;
+    //    4    6:iconst_0        
+    //    5    7:ireturn         
+        }
+    }
+}
