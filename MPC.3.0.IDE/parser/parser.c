@@ -4035,10 +4035,10 @@ type* RD_mult(block *current_block)
 				break;
 			///////////
 			case OP_SHR:
-				bytecode_append(current_block->code, ishl$);
+				bytecode_append(current_block->code, ishr$);
 				break;
 			case OP_SHL:
-				bytecode_append(current_block->code, ishr$);
+				bytecode_append(current_block->code, ishl$);
 				break;
 			}
 		}
