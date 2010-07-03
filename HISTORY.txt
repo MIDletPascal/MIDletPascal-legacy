@@ -1,0 +1,163 @@
+MIDletPascal History (since 2006)
+---------------------------------
+
+2010-07-03
+Javier Santo Domingo released MIDletPascal 3.0 FINAL (after near 3200 downloads of the ALPHA-BETA-CANDIDATE phases)
+url: http://sourceforge.net/projects/midletpascal
+
+2010-07-01
+Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 0101)
+url: http://forum.boolean.name/showpost.php?p=152415&postcount=135
+
+2010-06-28
+Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 010 SIMPLE)
+url: http://forum.boolean.name/showpost.php?p=152415&postcount=132
+
+2010-06-26
+Javier Santo Domingo released MIDletPascal 3.0 CANDIDATE 2 (registering 90 downloads in a week)
+url: http://sourceforge.net/projects/midletpascal
+
+2010-06-19
+Javier Santo Domingo released the MIDletPascal 3.0 RTL stubs Java source code
+url: http://sourceforge.net/projects/midletpascal
+
+2010-05-25
+Javier Santo Domingo released the MIDletPascal 3.0 Compiler C source code (this is the official version that works with the IDE)
+url: http://sourceforge.net/projects/midletpascal
+
+2010-05-08
+Javier Santo Domingo released MIDletPascal 3.0 CANDIDATE 1 (registering 650 downloads in seven weeks)
+url: http://sourceforge.net/projects/midletpascal
+
+2010-04-24
+Javier Santo Domingo released MIDletPascal 3.0 BETA 7 (registering 238 downloads in two weeks)
+url: http://sourceforge.net/projects/midletpascal
+
+2010-04-10
+Javier Santo Domingo released MIDletPascal 3.0 BETA 6 (registering 322 downloads in two weeks)
+url: http://sourceforge.net/projects/midletpascal
+
+2010-04-03
+Javier Santo Domingo released MIDletPascal 3.0 BETA 5 (registering 145 downloads in a week)
+url: http://sourceforge.net/projects/midletpascal
+
+2010-03-13
+Javier Santo Domingo released MIDletPascal 3.0 BETA 4 (registering 365 downloads in three weeks)
+url: http://sourceforge.net/projects/midletpascal
+
+2010-03-06
+Javier Santo Domingo released MIDletPascal 3.0 BETA 3 (registering 119 downloads in a week)
+url: http://sourceforge.net/projects/midletpascal
+
+2010-02-06
+Javier Santo Domingo released MIDletPascal 3.0 BETA 2 (registering 344 downloads in four weeks)
+url: http://sourceforge.net/projects/midletpascal
+
+2010-01-02
+Javier Santo Domingo released MIDletPascal 3.0 BETA 1 (registering 340 downloads in five weeks)
+url: http://sourceforge.net/projects/midletpascal
+
+2009-12-26
+Javier Santo Domingo released MIDletPascal 3.0 ALPHA 7 (registering 85 downloads in a week)
+url: http://sourceforge.net/projects/midletpascal
+
+2009-12-19
+Javier Santo Domingo released MIDletPascal 3.0 ALPHA 6 (registering 72 downloads in a week)
+url: http://sourceforge.net/projects/midletpascal
+
+2009-12-12
+Javier Santo Domingo released MIDletPascal 3.0 ALPHA 5 (registering 72 downloads in a week)
+url: http://sourceforge.net/projects/midletpascal
+
+2009-12-10
+Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 009 SIMPLE)
+url: http://forum.boolean.name/showpost.php?p=128750&postcount=114
+
+2009-12-07
+Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 009)
+url: http://forum.boolean.name/showpost.php?p=128750&postcount=113
+
+2009-12-05
+Javier Santo Domingo released MIDletPascal 3.0 ALPHA 4 (registering 44 downloads in a week)
+url: http://sourceforge.net/projects/midletpascal
+
+2009-11-28
+Javier Santo Domingo released MIDletPascal 3.0 ALPHA 3 (registering 96 downloads in a week)
+url: http://sourceforge.net/projects/midletpascal
+
+2009-11-21
+Javier Santo Domingo released MIDletPascal 3.0 ALPHA 2 (registering 100 downloads in a week)
+url: http://sourceforge.net/projects/midletpascal
+
+2009-11-14
+Javier Santo Domingo released MIDletPascal 3.0 ALPHA 1 (registering 92 downloads in a week)
+url: http://sourceforge.net/projects/midletpascal
+
+2009-10-30
+Wes Williams joined the MIDletPascal project
+
+2009-10-25
+Maxim Korzhavin joined the MIDletPascal project (at sourceforge)
+
+2009-10-25
+Javier Santo Domingo started coding the MIDletPascal 3.0 IDE (since the MP 2.0 contained commercial components a new IDE is created in Turbo Delphi 2006 and based in an under-develop work aimed to provide an advanced editor for FreePascal and Delphi)
+
+2009-10-24
+Javier Santo Domingo joined the MIDletPascal project and commited the original MIDletPascal compiler source code into the SVN repository of the sourceforge.net MIDletPascal project
+url: http://sourceforge.net/projects/midletpascal
+
+2009-10-23
+Serget Naydenov publishes the Artem's 007 version source code in the boolean.name's forum
+url: http://forum.boolean.name/showpost.php?p=121431&postcount=78
+
+2009-10-19
+Artem released his modifications to the MIDletPascal compiler (this stand-alone version is known as 007)
+
+2009-10-14
+Serget Naydenov publishes the Artem's 005 version source code in the boolean.name's forum
+url: http://forum.boolean.name/showpost.php?p=121431&postcount=61
+
+2009-10-14
+Artem released his modifications to the MIDletPascal compiler (this stand-alone version is known as 005)
+
+2009-10-13
+Serget Naydenov publishes the Artem's 003 version source code in the boolean.name's forum
+url: http://forum.boolean.name/showpost.php?p=121431&postcount=59
+
+2009-10-10
+Artem released his modifications to the MIDletPascal compiler (this stand-alone version is known as 003)
+
+2009-10-06
+Artem started his modifications to the MIDletPascal compiler
+
+2009-10-05
+Serget Naydenov published a link to the source code in the boolean.name's forum
+url: http://forum.boolean.name/showpost.php?p=120646&postcount=45
+
+2009-09-28
+Maxim Korzhavin created another project site on Google Code
+url: http://code.google.com/p/midletpascal/
+
+2009-09-24
+Sergey Naydenov created the sourceforge.net MIDletPascal project
+url: http://sourceforge.net/projects/midletpascal
+
+2009-09-12
+Sergey Naydenov announced he asked Niksa Orlic the source code of MP to release it open source
+url: http://forum.boolean.name/showpost.php?p=118324&postcount=9
+
+2008-07-01
+Alessandro Montoli announced in the midletpascal.com's forums that Niksa Orlic sent him the MIDletPascal project source code and repeat that he is about to create an open source project with it
+url: http://www.midletpascal.com/forum/viewtopic.php?t=4235&highlight=
+
+2008-06-17
+Alessandro Montoli announced in the midletpascal.com's forums that he asked Niksa Orlic the source code of the MIDletPascal project to release it open source
+url: http://www.midletpascal.com/forum/viewtopic.php?t=4235&highlight=
+
+2008-06-09
+Alessandro Montoli announced in the midletpascal.com's forums that he contacted Niksa Orlic
+url: http://www.midletpascal.com/forum/viewtopic.php?t=4234&highlight=
+
+2006-01-14
+Niksa Orlic released MIDletPascal 2.02 (this was the last public release for the old commercial project started in 2004)
+url: http://www.midletpascal.com
