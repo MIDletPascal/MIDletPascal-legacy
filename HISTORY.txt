@@ -1,6 +1,10 @@
 MIDletPascal History (since 2006)
 ---------------------------------
 
+2010-07-10
+Javier Santo Domingo released MIDletPascal 3.1 ALPHA
+url: http://sourceforge.net/projects/midletpascal
+
 2010-07-03
 Javier Santo Domingo released MIDletPascal 3.0 FINAL (after near 3200 downloads of the ALPHA-BETA-CANDIDATE phases)
 url: http://sourceforge.net/projects/midletpascal
@@ -14,7 +18,7 @@ Artem released new modifications to his version of the MIDletPascal compiler (th
 url: http://forum.boolean.name/showpost.php?p=152415&postcount=132
 
 2010-06-26
-Javier Santo Domingo released MIDletPascal 3.0 CANDIDATE 2 (registering 90 downloads in a week)
+Javier Santo Domingo released MIDletPascal 3.0 CANDIDATE 2 (registering 112 downloads in a week)
 url: http://sourceforge.net/projects/midletpascal
 
 2010-06-19

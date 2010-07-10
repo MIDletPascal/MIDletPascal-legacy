@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mp3CC" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release Win32">
+				<Option output="mp3CC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release Win32" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option host_application="mp3IDE.exe" />
+				<Compiler>
+					<Add option="-w" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="classgen\bytecode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="classgen\bytecode.h" />
+		<Unit filename="classgen\classgen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="classgen\classgen.h" />
+		<Unit filename="classgen\constant_pool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="classgen\constant_pool.h" />
+		<Unit filename="classgen\preverify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="classgen\preverify.h" />
+		<Unit filename="lex\lex.yy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lex\tokens.h" />
+		<Unit filename="main\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="parser\parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="parser\parser.h" />
+		<Unit filename="parser\stdpas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="parser\stdpas.h" />
+		<Unit filename="preverifier\check_class.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\check_code.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\check_code.h" />
+		<Unit filename="preverifier\classloader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\classresolver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\convert_md.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\convert_md.h" />
+		<Unit filename="preverifier\file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\inlinejsr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\jar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\jar.h" />
+		<Unit filename="preverifier\jar_support.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\jarint.h" />
+		<Unit filename="preverifier\jartables.h" />
+		<Unit filename="preverifier\locale_md.h" />
+		<Unit filename="preverifier\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\oobj.h" />
+		<Unit filename="preverifier\opcodes.h" />
+		<Unit filename="preverifier\path.h" />
+		<Unit filename="preverifier\path_md.h" />
+		<Unit filename="preverifier\signature.h" />
+		<Unit filename="preverifier\stubs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\sys_api.h" />
+		<Unit filename="preverifier\sys_support.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\sysmacros_md.h" />
+		<Unit filename="preverifier\tree.h" />
+		<Unit filename="preverifier\typecodes.h" />
+		<Unit filename="preverifier\typedefs.h" />
+		<Unit filename="preverifier\typedefs_md.h" />
+		<Unit filename="preverifier\utf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="preverifier\utf.h" />
+		<Unit filename="preverifier\util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structures\block.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structures\block.h" />
+		<Unit filename="structures\identifier.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structures\identifier.h" />
+		<Unit filename="structures\name_table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structures\name_table.h" />
+		<Unit filename="structures\string_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structures\string_list.h" />
+		<Unit filename="structures\type.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structures\type.h" />
+		<Unit filename="structures\type_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structures\type_list.h" />
+		<Unit filename="structures\unit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structures\unit.h" />
+		<Unit filename="util\error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="util\error.h" />
+		<Unit filename="util\memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="util\memory.h" />
+		<Unit filename="util\strings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="util\strings.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

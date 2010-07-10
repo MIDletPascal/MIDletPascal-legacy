@@ -87,7 +87,14 @@ COMPILERS
   -- project: /MPC.3.0.0101/mpc.vcproj (Visual C++ 8)
   -- readme: /MPC.3.0.0101/readmerus.txt (russian)
 
-
+/MPC.3.1.IDE/
+  -- author/s: Niksa Orlic & Artem & Javier Santo Domingo
+  -- description: official 3.1 compiler source code; based on MPC.3.0.IDE; infinite-loop support via the repeat/forever keywords
+  -- date: 2010 Jul 10
+  -- design: designed to work as an stand-alone command-line application operated by the 3.1 IDE
+  -- preverificator: yes
+  -- project: /MPC.3.0.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
+  -- readme: /MPC.3.0.IDE/readme.txt (english)
 
 
 RTL STUBS
@@ -119,4 +126,4 @@ The IDE source code (which includes the Preprocessor and the Command Line Tools)
 Enjoy,
 
 Javier Santo Domingo
-03.july.2010
+10.july.2010
