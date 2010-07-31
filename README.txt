@@ -93,8 +93,26 @@ COMPILERS
   -- date: 2010 Jul 10
   -- design: designed to work as an stand-alone command-line application operated by the 3.1 IDE
   -- preverificator: yes
-  -- project: /MPC.3.0.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
-  -- readme: /MPC.3.0.IDE/readme.txt (english)
+  -- project: /MPC.3.1.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
+  -- readme: /MPC.3.1.IDE/readme.txt (english)
+
+/MPC.3.0.0101.SIMPLE/
+  -- author/s: Niksa Orlic & Artem
+  -- description: modified MPC.3.0.0101 version; $C+/-/* canvas selection compiler directive, line number display on error reports, etc
+  -- date: 2010 July 25
+  -- design: designed to work as an stand-alone application operated by the user via command-line
+  -- preverificator: no
+  -- project: /MPC.3.0.0101.SIMPLE/mpc.vcproj (Visual C++ 8)
+  -- readme: /MPC.3.0.0101.SIMPLE/readmerus.txt (russian)
+
+/MPC.3.1.LINUX/
+  -- author/s: Niksa Orlic & Artem & Javier Santo Domingo & Zoltán Várnagy
+  -- description: 3.1 compiler source code for Linux (tested on PowerPC & x86); based on MPC.3.1.IDE
+  -- date: 2010 Jul 27
+  -- design: designed to work as an stand-alone command-line application operated by user via command-line
+  -- preverificator: yes
+  -- project: /MPC.3.1.LINUX/mp3CC.cbp (Code::Blocks 8 / GNUCC)
+  -- readme: /MPC.3.1.LINUX/readme.txt (english)
 
 
 RTL STUBS
@@ -106,7 +124,6 @@ RTL STUBS
   -- description: original RTL stubs source code
   -- date: 2006 January 14
   -- readme: /MPS.2.02/readme.txt (english)
-
 
 /MPS.3.0/
   -- author/s: Niksa Orlic & Javier Santo Domingo
@@ -126,4 +143,4 @@ The IDE source code (which includes the Preprocessor and the Command Line Tools)
 Enjoy,
 
 Javier Santo Domingo
-10.july.2010
+31.july.2010

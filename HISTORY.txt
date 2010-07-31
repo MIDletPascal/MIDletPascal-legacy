@@ -1,6 +1,17 @@
 MIDletPascal History (since 2006)
 ---------------------------------
 
+2010-07-31
+Javier Santo Domingo released MIDletPascal 3.1 BETA
+url: http://sourceforge.net/projects/midletpascal
+
+2010-07-27
+Zoltán Várnagy released an initial Linux version of the compiler (this stand-alone version is known as LINUX)
+
+2010-07-26
+Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 0101 SIMPLE)
+url: http://forum.boolean.name/showpost.php?p=156244&postcount=136
+
 2010-07-10
 Javier Santo Domingo released MIDletPascal 3.1 ALPHA
 url: http://sourceforge.net/projects/midletpascal
