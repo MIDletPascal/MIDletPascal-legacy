@@ -1,6 +1,10 @@
 MIDletPascal History (since 2006)
 ---------------------------------
 
+2010-08-05
+Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 011 SIMPLE)
+url: http://forum.boolean.name/showpost.php?p=157401
+
 2010-07-31
 Javier Santo Domingo released MIDletPascal 3.1 BETA
 url: http://sourceforge.net/projects/midletpascal
@@ -10,7 +14,7 @@ Zoltán Várnagy released an initial Linux version of the compiler (this stand-alo
 
 2010-07-26
 Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 0101 SIMPLE)
-url: http://forum.boolean.name/showpost.php?p=156244&postcount=136
+url: http://forum.boolean.name/showpost.php?p=156244
 
 2010-07-10
 Javier Santo Domingo released MIDletPascal 3.1 ALPHA
@@ -22,11 +26,11 @@ url: http://sourceforge.net/projects/midletpascal
 
 2010-07-01
 Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 0101)
-url: http://forum.boolean.name/showpost.php?p=152415&postcount=135
+url: http://forum.boolean.name/showpost.php?p=152415
 
 2010-06-28
 Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 010 SIMPLE)
-url: http://forum.boolean.name/showpost.php?p=152415&postcount=132
+url: http://forum.boolean.name/showpost.php?p=151803
 
 2010-06-26
 Javier Santo Domingo released MIDletPascal 3.0 CANDIDATE 2 (registering 112 downloads in a week)
@@ -86,11 +90,11 @@ url: http://sourceforge.net/projects/midletpascal
 
 2009-12-10
 Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 009 SIMPLE)
-url: http://forum.boolean.name/showpost.php?p=128750&postcount=114
+url: http://forum.boolean.name/showpost.php?p=129029
 
 2009-12-07
 Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 009)
-url: http://forum.boolean.name/showpost.php?p=128750&postcount=113
+url: http://forum.boolean.name/showpost.php?p=128750
 
 2009-12-05
 Javier Santo Domingo released MIDletPascal 3.0 ALPHA 4 (registering 44 downloads in a week)
@@ -122,21 +126,21 @@ Javier Santo Domingo joined the MIDletPascal project and commited the original M
 url: http://sourceforge.net/projects/midletpascal
 
 2009-10-23
-Serget Naydenov publishes the Artem's 007 version source code in the boolean.name's forum
+Sergey Naydenov publishes the Artem's 007 version source code in the boolean.name's forum
 url: http://forum.boolean.name/showpost.php?p=121431&postcount=78
 
 2009-10-19
 Artem released his modifications to the MIDletPascal compiler (this stand-alone version is known as 007)
 
 2009-10-14
-Serget Naydenov publishes the Artem's 005 version source code in the boolean.name's forum
+Sergey Naydenov publishes the Artem's 005 version source code in the boolean.name's forum
 url: http://forum.boolean.name/showpost.php?p=121431&postcount=61
 
 2009-10-14
 Artem released his modifications to the MIDletPascal compiler (this stand-alone version is known as 005)
 
 2009-10-13
-Serget Naydenov publishes the Artem's 003 version source code in the boolean.name's forum
+Sergey Naydenov publishes the Artem's 003 version source code in the boolean.name's forum
 url: http://forum.boolean.name/showpost.php?p=121431&postcount=59
 
 2009-10-10
@@ -146,7 +150,7 @@ Artem released his modifications to the MIDletPascal compiler (this stand-alone 
 Artem started his modifications to the MIDletPascal compiler
 
 2009-10-05
-Serget Naydenov published a link to the source code in the boolean.name's forum
+Sergey Naydenov published a link to the source code in the boolean.name's forum
 url: http://forum.boolean.name/showpost.php?p=120646&postcount=45
 
 2009-09-28

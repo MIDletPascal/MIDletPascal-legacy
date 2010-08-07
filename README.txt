@@ -114,6 +114,15 @@ COMPILERS
   -- project: /MPC.3.1.LINUX/mp3CC.cbp (Code::Blocks 8 / GNUCC)
   -- readme: /MPC.3.1.LINUX/readme.txt (english)
 
+/MPC.3.0.011.SIMPLE/
+  -- author/s: Niksa Orlic & Artem
+  -- description: modified MPC.3.0.0101.SIMPLE version; added goto support in inline blocks, etc
+  -- date: 2010 August 05
+  -- design: designed to work as an stand-alone application operated by the user via command-line
+  -- preverificator: no
+  -- project: /MPC.3.0.011.SIMPLE/mpc.vcproj (Visual C++ 8)
+  -- readme: /MPC.3.0.011.SIMPLE/readmerus.txt (russian)
+
 
 RTL STUBS
 ---------
@@ -143,4 +152,4 @@ The IDE source code (which includes the Preprocessor and the Command Line Tools)
 Enjoy,
 
 Javier Santo Domingo
-31.july.2010
+07.august.2010
