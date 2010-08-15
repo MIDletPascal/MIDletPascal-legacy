@@ -1,6 +1,10 @@
 MIDletPascal History (since 2006)
 ---------------------------------
 
+2010-08-14
+Javier Santo Domingo released MIDletPascal 3.1 CANDIDATE
+url: http://sourceforge.net/projects/midletpascal
+
 2010-08-05
 Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 011 SIMPLE)
 url: http://forum.boolean.name/showpost.php?p=157401

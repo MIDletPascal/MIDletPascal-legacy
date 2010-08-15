@@ -89,7 +89,7 @@ COMPILERS
 
 /MPC.3.1.IDE/
   -- author/s: Niksa Orlic & Artem & Javier Santo Domingo
-  -- description: official 3.1 compiler source code; based on MPC.3.0.IDE; infinite-loop support via the repeat/forever keywords
+  -- description: official 3.1 compiler source code; based on MPC.3.0.IDE; added infinite-loop support via the repeat/forever keywords and bugfixes (complex-type bidimensional array initialization index out-of-bound, etc)
   -- date: 2010 Jul 10
   -- design: designed to work as an stand-alone command-line application operated by the 3.1 IDE
   -- preverificator: yes

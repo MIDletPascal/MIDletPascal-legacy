@@ -1665,6 +1665,7 @@ void initialize_variable(block *item, identifier *variable, char *name, int is_s
 				char descriptor[128];
 				unsigned short int num;
 				int *offsets;
+				int *dimensions_sizes; // j-a-s-d: OOB in initialization of complex-type multidimensional arrays bug fix
 				type_list *it = variable->variable_type->dimensions_list;
 
 				while (it != NULL)
@@ -1677,6 +1678,7 @@ void initialize_variable(block *item, identifier *variable, char *name, int is_s
 					usesFloat = 1;
 
 				offsets = (int*) mem_alloc(c * sizeof(int));
+				dimensions_sizes = (int*) mem_alloc(c * sizeof(int)); // j-a-s-d: OOB in initialization of complex-type multidimensional arrays bug fix
 				num = c;
 
 				/* reset */
@@ -1694,8 +1696,8 @@ void initialize_variable(block *item, identifier *variable, char *name, int is_s
 						bytecode_append(item->code, iastore$);
 
 						offsets[c] = item->code->bytecode_pos;
+						dimensions_sizes[c] = it->data->last_element-it->data->first_element; // j-a-s-d: OOB in initialization of complex-type multidimensional arrays bug fix
 					}
-
 					c++;
 					it = it->next;
 				}
@@ -1788,12 +1790,12 @@ void initialize_variable(block *item, identifier *variable, char *name, int is_s
 						bytecode_append(item->code, iaload$);
 						bytecode_append(item->code, sipush$);
 						bytecode_append_short_int(item->code,
-							it->data->last_element-it->data->first_element);
+							//it->data->last_element-it->data->first_element);
+							dimensions_sizes[c]); // j-a-s-d: OOB in initialization of complex-type multidimensional arrays bug fix
 						bytecode_append(item->code, if_icmple$);
 						offset = offsets[c] - item->code->bytecode_pos + 1;
 						bytecode_append_short_int(item->code, offset);
 					}
-
 					c--;
 					it = it->next;
 				}

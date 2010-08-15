@@ -27,7 +27,8 @@
 
         MPC.3.1.IDE:
             Javier Santo Domingo (j-a-s-d@users.sourceforge.net)
-                infinite-loop support (repeat/forever)
+                infinite-loop support (repeat/forever),
+                and bugfixes (complex-type bidimensional array initialization index out-of-bound, etc)
 
 */
 
@@ -174,7 +175,7 @@ void ShowHelp()
 {
     sprintf(msgstr,
     "-------------------------------------------------------------------------\n"
-    "MIDletPascal 3.1 ALPHA Compiler\n"
+    "MIDletPascal 3.1 CANDIDATE Compiler\n"
     "Version: MPC.3.1.IDE (Niksa Orlic & Artem & Javier Santo Domingo)\n"
     "-------------------------------------------------------------------------\n"
     "usage: mp3cc\n"
