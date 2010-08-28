@@ -1,4 +1,4 @@
-In this SVN repository you will find the different compiler versions (and it's RTL stubs) available under the following structure (useful for quick reference):
+In this SVN repository you will find the different compiler versions (and it's RTL stubs) available under the following structure (also explained in the INHERITANCE.jpg file, useful for quick reference):
 
 
 
@@ -140,7 +140,11 @@ RTL STUBS
   -- date: 2010 June 19
   -- readme: /MPS.3.0/readme.txt (english)
 
-
+/MPS.3.1/
+  -- author/s: Niksa Orlic & Javier Santo Domingo
+  -- description: official 3.1 RTL stubs source code; based on MPS.3.0; Roar Lauritzsen's Real.java updated from version 1.07 to 1.13
+  -- date: 2010 August 28
+  -- readme: /MPS.3.1/readme.txt (english)
 
 
 
@@ -152,4 +156,4 @@ The IDE source code (which includes the Preprocessor and the Command Line Tools)
 Enjoy,
 
 Javier Santo Domingo
-07.august.2010
+28.august.2010

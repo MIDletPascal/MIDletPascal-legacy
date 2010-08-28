@@ -1,6 +1,10 @@
 MIDletPascal History (since 2006)
 ---------------------------------
 
+2010-08-28
+Javier Santo Domingo released MIDletPascal 3.1 FINAL
+url: http://sourceforge.net/projects/midletpascal
+
 2010-08-21
 Javier Santo Domingo released MIDletPascal 3.1 CANDIDATE 2
 url: http://sourceforge.net/projects/midletpascal
