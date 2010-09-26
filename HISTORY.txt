@@ -1,16 +1,21 @@
 MIDletPascal History (since 2006)
 ---------------------------------
 
+
+2010-09-25
+Javier Santo Domingo released MIDletPascal 3.2 ALPHA
+url: http://sourceforge.net/projects/midletpascal
+
 2010-08-28
-Javier Santo Domingo released MIDletPascal 3.1 FINAL
+Javier Santo Domingo released MIDletPascal 3.1 FINAL (after near 4100 total downloads since MP 3.0 ALPHA 1)
 url: http://sourceforge.net/projects/midletpascal
 
 2010-08-21
-Javier Santo Domingo released MIDletPascal 3.1 CANDIDATE 2
+Javier Santo Domingo released MIDletPascal 3.1 CANDIDATE 2 (registering 133 downloads in a week)
 url: http://sourceforge.net/projects/midletpascal
 
 2010-08-14
-Javier Santo Domingo released MIDletPascal 3.1 CANDIDATE
+Javier Santo Domingo released MIDletPascal 3.1 CANDIDATE (registering 150 downloads in a week)
 url: http://sourceforge.net/projects/midletpascal
 
 2010-08-05
@@ -18,31 +23,31 @@ Artem released new modifications to his version of the MIDletPascal compiler (th
 url: http://forum.boolean.name/showpost.php?p=157401
 
 2010-07-31
-Javier Santo Domingo released MIDletPascal 3.1 BETA
+Javier Santo Domingo released MIDletPascal 3.1 BETA (registering 153 downloads in two weeks)
 url: http://sourceforge.net/projects/midletpascal
 
 2010-07-27
-Zoltán Várnagy released an initial Linux version of the compiler (this stand-alone version is known as LINUX)
+Zoltán Várnagy released an initial Linux version of the compiler.
 
 2010-07-26
-Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 0101 SIMPLE)
-url: http://forum.boolean.name/showpost.php?p=156244
+Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 0101.SIMPLE)
+url: http://forum.boolean.name/showpost.php?p=156244&postcount=136
 
 2010-07-10
-Javier Santo Domingo released MIDletPascal 3.1 ALPHA
+Javier Santo Domingo released MIDletPascal 3.1 ALPHA (registering 249 downloads in three weeks)
 url: http://sourceforge.net/projects/midletpascal
 
 2010-07-03
-Javier Santo Domingo released MIDletPascal 3.0 FINAL (after near 3200 downloads of the ALPHA-BETA-CANDIDATE phases)
+Javier Santo Domingo released MIDletPascal 3.0 FINAL (after near 3200 downloads of the ALPHA-BETA-CANDIDATE phases; the 3.0 FINAL version registers 162 downloads in a week)
 url: http://sourceforge.net/projects/midletpascal
 
 2010-07-01
 Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 0101)
-url: http://forum.boolean.name/showpost.php?p=152415
+url: http://forum.boolean.name/showpost.php?p=152415&postcount=135
 
 2010-06-28
 Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 010 SIMPLE)
-url: http://forum.boolean.name/showpost.php?p=151803
+url: http://forum.boolean.name/showpost.php?p=152415&postcount=132
 
 2010-06-26
 Javier Santo Domingo released MIDletPascal 3.0 CANDIDATE 2 (registering 112 downloads in a week)
@@ -102,11 +107,11 @@ url: http://sourceforge.net/projects/midletpascal
 
 2009-12-10
 Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 009 SIMPLE)
-url: http://forum.boolean.name/showpost.php?p=129029
+url: http://forum.boolean.name/showpost.php?p=128750&postcount=114
 
 2009-12-07
 Artem released new modifications to his version of the MIDletPascal compiler (this stand-alone version is known as 009)
-url: http://forum.boolean.name/showpost.php?p=128750
+url: http://forum.boolean.name/showpost.php?p=128750&postcount=113
 
 2009-12-05
 Javier Santo Domingo released MIDletPascal 3.0 ALPHA 4 (registering 44 downloads in a week)
@@ -131,28 +136,28 @@ Wes Williams joined the MIDletPascal project
 Maxim Korzhavin joined the MIDletPascal project (at sourceforge)
 
 2009-10-25
-Javier Santo Domingo started coding the MIDletPascal 3.0 IDE (since the MP 2.0 contained commercial components a new IDE is created in Turbo Delphi 2006 and based in an under-develop work aimed to provide an advanced editor for FreePascal and Delphi)
+Javier Santo Domingo started coding the MIDletPascal 3.0 IDE (since the MP 2.0 contained commercial components a new IDE is created in Turbo Delphi 2006 and based in an under-develop own work aimed to provide an advanced editor for FreePascal -currently the Tabitha project- and Delphi)
 
 2009-10-24
 Javier Santo Domingo joined the MIDletPascal project and commited the original MIDletPascal compiler source code into the SVN repository of the sourceforge.net MIDletPascal project
 url: http://sourceforge.net/projects/midletpascal
 
 2009-10-23
-Sergey Naydenov publishes the Artem's 007 version source code in the boolean.name's forum
+Serget Naydenov publishes the Artem's 007 version source code in the boolean.name's forum
 url: http://forum.boolean.name/showpost.php?p=121431&postcount=78
 
 2009-10-19
 Artem released his modifications to the MIDletPascal compiler (this stand-alone version is known as 007)
 
 2009-10-14
-Sergey Naydenov publishes the Artem's 005 version source code in the boolean.name's forum
+Serget Naydenov publishes the Artem's 005 version source code in the boolean.name's forum
 url: http://forum.boolean.name/showpost.php?p=121431&postcount=61
 
 2009-10-14
 Artem released his modifications to the MIDletPascal compiler (this stand-alone version is known as 005)
 
 2009-10-13
-Sergey Naydenov publishes the Artem's 003 version source code in the boolean.name's forum
+Serget Naydenov publishes the Artem's 003 version source code in the boolean.name's forum
 url: http://forum.boolean.name/showpost.php?p=121431&postcount=59
 
 2009-10-10
@@ -162,7 +167,7 @@ Artem released his modifications to the MIDletPascal compiler (this stand-alone 
 Artem started his modifications to the MIDletPascal compiler
 
 2009-10-05
-Sergey Naydenov published a link to the source code in the boolean.name's forum
+Serget Naydenov published a link to the source code in the boolean.name's forum
 url: http://forum.boolean.name/showpost.php?p=120646&postcount=45
 
 2009-09-28

@@ -123,6 +123,15 @@ COMPILERS
   -- project: /MPC.3.0.011.SIMPLE/mpc.vcproj (Visual C++ 8)
   -- readme: /MPC.3.0.011.SIMPLE/readmerus.txt (russian)
 
+/MPC.3.2.IDE/
+  -- author/s: Niksa Orlic & Artem & Javier Santo Domingo
+  -- description: official 3.2 compiler source code; based on MPC.3.1.IDE; added exit keyword support and C-style multiline comment support
+  -- date: 2010 Sep 25
+  -- design: designed to work as an stand-alone command-line application operated by the 3.2 IDE
+  -- preverificator: yes
+  -- project: /MPC.3.2.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
+  -- readme: /MPC.3.2.IDE/readme.txt (english)
+
 
 RTL STUBS
 ---------
@@ -156,4 +165,4 @@ The IDE source code (which includes the Preprocessor and the Command Line Tools)
 Enjoy,
 
 Javier Santo Domingo
-28.august.2010
+25.september.2010
