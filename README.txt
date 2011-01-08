@@ -132,6 +132,15 @@ COMPILERS
   -- project: /MPC.3.2.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
   -- readme: /MPC.3.2.IDE/readme.txt (english)
 
+/MPC.3.3.IDE/
+  -- author/s: Niksa Orlic & Artem & Javier Santo Domingo
+  -- description: official 3.3 compiler source code; based on MPC.3.2.IDE; added result keyword support, C-style shift operators support and bugfixes (constant assignment crash, etc)
+  -- date: 2011 Jan 08
+  -- design: designed to work as an stand-alone command-line application operated by the 3.3 IDE
+  -- preverificator: yes
+  -- project: /MPC.3.3.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
+  -- readme: /MPC.3.3.IDE/readme.txt (english)
+
 
 RTL STUBS
 ---------
@@ -165,4 +174,4 @@ The IDE source code (which includes the Preprocessor and the Command Line Tools)
 Enjoy,
 
 Javier Santo Domingo
-25.september.2010
+08.january.2011

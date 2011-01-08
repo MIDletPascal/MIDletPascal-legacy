@@ -1,0 +1,518 @@
+# depslib dependency file v1.0
+1260373732 source:c:\code\mp3cc\classgen\bytecode.c
+	"bytecode.h"
+	"../util/error.h"
+	"../util/memory.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1260373732 c:\code\mp3cc\classgen\bytecode.h
+
+1260373734 c:\code\mp3cc\util\error.h
+
+1267714409 c:\code\mp3cc\util\memory.h
+
+1267726361 source:c:\code\mp3cc\classgen\classgen.c
+	"../util/error.h"
+	"../util/strings.h"
+	"../structures/type_list.h"
+	"../structures/string_list.h"
+	"../structures/type.h"
+	"../structures/identifier.h"
+	"../structures/name_table.h"
+	"../classgen/bytecode.h"
+	"../structures/block.h"
+	"../classgen/constant_pool.h"
+	"../classgen/preverify.h"
+	"../util/memory.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"classgen.h"
+
+1260373734 c:\code\mp3cc\util\strings.h
+
+1260373734 c:\code\mp3cc\structures\type_list.h
+
+1260373734 c:\code\mp3cc\structures\string_list.h
+
+1260373734 c:\code\mp3cc\structures\type.h
+
+1260373734 c:\code\mp3cc\structures\identifier.h
+	<stdio.h>
+
+1260373734 c:\code\mp3cc\structures\name_table.h
+
+1260373734 c:\code\mp3cc\structures\block.h
+	<stdio.h>
+
+1260373732 c:\code\mp3cc\classgen\constant_pool.h
+
+1260373733 c:\code\mp3cc\classgen\preverify.h
+
+1260373732 c:\code\mp3cc\classgen\classgen.h
+
+1260373732 source:c:\code\mp3cc\classgen\constant_pool.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"constant_pool.h"
+	"../util/error.h"
+	"../util/strings.h"
+	"../structures/type_list.h"
+	"../structures/string_list.h"
+	"../structures/type.h"
+	"../structures/identifier.h"
+	"../structures/name_table.h"
+	"../classgen/bytecode.h"
+	"../structures/block.h"
+	"../util/memory.h"
+	"classgen.h"
+
+1260373733 source:c:\code\mp3cc\classgen\preverify.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"../util/error.h"
+	"../util/strings.h"
+	"../structures/type_list.h"
+	"../structures/string_list.h"
+	"../structures/type.h"
+	"../structures/identifier.h"
+	"../structures/name_table.h"
+	"constant_pool.h"
+	"bytecode.h"
+	"preverify.h"
+	"../util/error.h"
+	"../util/memory.h"
+
+1291749785 source:c:\code\mp3cc\lex\lex.yy.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tokens.h"
+	"../util/strings.h"
+	"../util/error.h"
+
+1291749816 c:\code\mp3cc\lex\tokens.h
+
+1294509432 source:c:\code\mp3cc\parser\parser.c
+	"../util/error.h"
+	"../util/strings.h"
+	"../structures/type_list.h"
+	"../structures/string_list.h"
+	"../structures/type.h"
+	"../structures/identifier.h"
+	"../structures/name_table.h"
+	"../classgen/bytecode.h"
+	"../structures/block.h"
+	"../lex/tokens.h"
+	"../util/memory.h"
+	"../structures/unit.h"
+	"../classgen/constant_pool.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../classgen/classgen.h"
+	"parser.h"
+	"stdpas.h"
+
+1260373734 c:\code\mp3cc\structures\unit.h
+
+1260373733 c:\code\mp3cc\parser\parser.h
+
+1260373733 c:\code\mp3cc\parser\stdpas.h
+
+1270062370 source:c:\code\mp3cc\parser\stdpas.c
+	"../util/strings.h"
+	"../util/error.h"
+	"../structures/type_list.h"
+	"../structures/string_list.h"
+	"../structures/type.h"
+	"../structures/identifier.h"
+	"../structures/name_table.h"
+	"../classgen/bytecode.h"
+	"../structures/block.h"
+	"../classgen/constant_pool.h"
+	"stdpas.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1260373733 source:c:\code\mp3cc\preverifier\check_class.c
+	<ctype.h>
+	"oobj.h"
+	"utf.h"
+	"tree.h"
+	"sys_api.h"
+
+1260373733 c:\code\mp3cc\preverifier\oobj.h
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	"typedefs.h"
+	"signature.h"
+
+1260373734 c:\code\mp3cc\preverifier\typedefs.h
+	"typedefs_md.h"
+
+1260373734 c:\code\mp3cc\preverifier\typedefs_md.h
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/byteorder.h>
+	<asm/byteorder.h>
+	<windows.h>
+
+1260373734 c:\code\mp3cc\preverifier\signature.h
+
+1260373734 c:\code\mp3cc\preverifier\utf.h
+
+1260373734 c:\code\mp3cc\preverifier\tree.h
+	"oobj.h"
+	"typecodes.h"
+
+1260373734 c:\code\mp3cc\preverifier\typecodes.h
+
+1260373734 c:\code\mp3cc\preverifier\sys_api.h
+	"typedefs.h"
+	<time.h>
+	"sysmacros_md.h"
+
+1260373734 c:\code\mp3cc\preverifier\sysmacros_md.h
+	<io.h>
+
+1260373733 source:c:\code\mp3cc\preverifier\check_code.c
+	"check_code.h"
+	"opcodes.length"
+	"opcodes.in_out"
+
+1260373733 c:\code\mp3cc\preverifier\check_code.h
+	<setjmp.h>
+	"oobj.h"
+	"opcodes.h"
+	"tree.h"
+	"sys_api.h"
+
+1260373733 c:\code\mp3cc\preverifier\opcodes.h
+
+1260373733 c:\code\mp3cc\preverifier\opcodes.length
+
+1260373733 c:\code\mp3cc\preverifier\opcodes.in_out
+
+1260373733 source:c:\code\mp3cc\preverifier\classloader.c
+	<string.h>
+	<stdio.h>
+	<sys/types.h>
+	<stddef.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<stdlib.h>
+	<setjmp.h>
+	"jar.h"
+	"oobj.h"
+	"path.h"
+	"tree.h"
+	"signature.h"
+	"convert_md.h"
+	"sys_api.h"
+	<unistd.h>
+
+1260373733 c:\code\mp3cc\preverifier\jar.h
+	"typedefs.h"
+	"stdio.h"
+	"sys/types.h"
+	"stddef.h"
+
+1260373733 c:\code\mp3cc\preverifier\path.h
+	<sys/stat.h>
+	"path_md.h"
+
+1260373733 c:\code\mp3cc\preverifier\path_md.h
+	<dirent.h>
+	<direct.h>
+
+1260373733 c:\code\mp3cc\preverifier\convert_md.h
+
+1260373733 source:c:\code\mp3cc\preverifier\classresolver.c
+	<ctype.h>
+	<string.h>
+	<sys/types.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<stdlib.h>
+	"oobj.h"
+	"tree.h"
+	"signature.h"
+	"path.h"
+	"sys_api.h"
+	"convert_md.h"
+
+1260373733 source:c:\code\mp3cc\preverifier\convert_md.c
+	<stdio.h>
+	<string.h>
+	<langinfo.h>
+	<iconv.h>
+	<locale.h>
+	<WINDOWS.H>
+	"oobj.h"
+	"utf.h"
+
+1260373733 source:c:\code\mp3cc\preverifier\file.c
+	<sys/types.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<stddef.h>
+	<unistd.h>
+	"oobj.h"
+	"jar.h"
+	"tree.h"
+	"sys_api.h"
+	"convert_md.h"
+	<direct.h>
+	"opcodes.init"
+
+1260373733 c:\code\mp3cc\preverifier\opcodes.init
+
+1260373733 source:c:\code\mp3cc\preverifier\inlinejsr.c
+	"check_code.h"
+
+1260373733 source:c:\code\mp3cc\preverifier\jar.c
+	<stdio.h>
+	<sys/types.h>
+	<stddef.h>
+	<assert.h>
+	"oobj.h"
+	"typedefs.h"
+	"jar.h"
+	"jarint.h"
+	"jartables.h"
+
+1260373733 c:\code\mp3cc\preverifier\jarint.h
+
+1260373733 c:\code\mp3cc\preverifier\jartables.h
+
+1260373733 source:c:\code\mp3cc\preverifier\jar_support.c
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<string.h>
+	"sys_api.h"
+	"path_md.h"
+	"path.h"
+	"oobj.h"
+	"jar.h"
+	"convert_md.h"
+	<string.h>
+	<process.h>
+
+1260373733 source:c:\code\mp3cc\preverifier\main.c
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<string.h>
+	"sys_api.h"
+	"path_md.h"
+	"path.h"
+	"oobj.h"
+	"locale_md.h"
+	"../util/strings.h"
+	"../util/error.h"
+	"../util/message.h"
+	"../structures/type_list.h"
+	"../structures/string_list.h"
+	"../structures/type.h"
+	"../structures/identifier.h"
+	"../structures/name_table.h"
+	"../classgen/bytecode.h"
+	"../structures/block.h"
+	"../parser/parser.h"
+	"../util/memory.h"
+	"../main/static_entry.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1260373733 c:\code\mp3cc\preverifier\locale_md.h
+	<locale.h>
+
+1260373734 source:c:\code\mp3cc\preverifier\stubs.c
+	"oobj.h"
+	"sys_api.h"
+
+1260373734 source:c:\code\mp3cc\preverifier\sys_support.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"oobj.h"
+	"jar.h"
+	"typedefs.h"
+	"sys_api.h"
+	"path.h"
+
+1260373734 source:c:\code\mp3cc\preverifier\utf.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"oobj.h"
+	"utf.h"
+	"sys_api.h"
+
+1260373734 source:c:\code\mp3cc\preverifier\util.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stddef.h>
+	"oobj.h"
+	"utf.h"
+	"sys_api.h"
+	"path.h"
+
+1281732931 source:c:\code\mp3cc\structures\block.c
+	"../util/strings.h"
+	"../util/error.h"
+	"../classgen/bytecode.h"
+	"type_list.h"
+	"string_list.h"
+	"type.h"
+	"identifier.h"
+	"name_table.h"
+	"unit.h"
+	"block.h"
+	"../classgen/preverify.h"
+	"../util/memory.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"../classgen/constant_pool.h"
+	"../classgen/classgen.h"
+
+1267714288 source:c:\code\mp3cc\structures\identifier.c
+	"../util/strings.h"
+	"../util/error.h"
+	"type_list.h"
+	"string_list.h"
+	"type.h"
+	"identifier.h"
+	"name_table.h"
+	"../classgen/bytecode.h"
+	"block.h"
+	"unit.h"
+	"../util/memory.h"
+	<string.h>
+	<stdlib.h>
+
+1260373734 source:c:\code\mp3cc\structures\name_table.c
+	"../util/strings.h"
+	"../util/error.h"
+	"type_list.h"
+	"string_list.h"
+	"type.h"
+	"identifier.h"
+	"name_table.h"
+	"../classgen/bytecode.h"
+	"block.h"
+	"unit.h"
+	"../util/memory.h"
+	<string.h>
+	<stdlib.h>
+
+1260373734 source:c:\code\mp3cc\structures\string_list.c
+	"../util/strings.h"
+	"../util/error.h"
+	"string_list.h"
+	<string.h>
+	<stdlib.h>
+
+1260373734 source:c:\code\mp3cc\structures\type.c
+	"../util/strings.h"
+	"../util/error.h"
+	"type_list.h"
+	"string_list.h"
+	"type.h"
+	"identifier.h"
+	"name_table.h"
+	"../classgen/bytecode.h"
+	"block.h"
+	"../util/memory.h"
+	<string.h>
+	<stdlib.h>
+
+1260373734 source:c:\code\mp3cc\structures\type_list.c
+	"../util/strings.h"
+	"../util/error.h"
+	"type_list.h"
+	"string_list.h"
+	"type.h"
+	"identifier.h"
+	"name_table.h"
+	"../classgen/bytecode.h"
+	"block.h"
+	"../util/memory.h"
+	<stdlib.h>
+
+1260373734 source:c:\code\mp3cc\structures\unit.c
+	"../util/strings.h"
+	"../util/error.h"
+	"../classgen/bytecode.h"
+	"type_list.h"
+	"string_list.h"
+	"type.h"
+	"identifier.h"
+	"name_table.h"
+	"block.h"
+	"unit.h"
+	"../classgen/preverify.h"
+	"../util/memory.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"../classgen/constant_pool.h"
+	"../classgen/classgen.h"
+
+1291751683 source:c:\code\mp3cc\util\error.c
+	<stdio.h>
+	<stdlib.h>
+
+1260373734 source:c:\code\mp3cc\util\memory.c
+	<stdlib.h>
+	<string.h>
+	"memory.h"
+	"error.h"
+
+1260373734 source:c:\code\mp3cc\util\strings.c
+	"error.h"
+	"strings.h"
+	"memory.h"
+	<stdlib.h>
+	<string.h>
+
+1291756610 source:c:\code\mp3cc\main\main.c
+	"../util/strings.h"
+	"../util/error.h"
+	"../structures/type_list.h"
+	"../structures/string_list.h"
+	"../structures/type.h"
+	"../structures/identifier.h"
+	"../structures/name_table.h"
+	"../classgen/bytecode.h"
+	"../structures/block.h"
+	"../parser/parser.h"
+	"../util/memory.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<getopt.h>
+	<windows.h>
+

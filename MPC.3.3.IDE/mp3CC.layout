@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release Win32" />
+	<File name="classgen\bytecode.c" open="0" top="0" tabpos="1">
+		<Cursor position="473" topLine="0" />
+	</File>
+	<File name="classgen\bytecode.h" open="0" top="0" tabpos="0">
+		<Cursor position="2666" topLine="201" />
+	</File>
+	<File name="classgen\classgen.c" open="0" top="0" tabpos="2">
+		<Cursor position="9635" topLine="406" />
+	</File>
+	<File name="classgen\constant_pool.c" open="0" top="0" tabpos="0">
+		<Cursor position="2046" topLine="17" />
+	</File>
+	<File name="classgen\constant_pool.h" open="0" top="0" tabpos="0">
+		<Cursor position="424" topLine="7" />
+	</File>
+	<File name="classgen\preverify.c" open="0" top="0" tabpos="2">
+		<Cursor position="22311" topLine="1054" />
+	</File>
+	<File name="lex\lex.yy.c" open="0" top="0" tabpos="2">
+		<Cursor position="4333" topLine="111" />
+	</File>
+	<File name="lex\tokens.h" open="0" top="0" tabpos="0">
+		<Cursor position="1957" topLine="54" />
+	</File>
+	<File name="main\main.c" open="1" top="1" tabpos="1">
+		<Cursor position="1384" topLine="0" />
+	</File>
+	<File name="parser\parser.c" open="0" top="0" tabpos="3">
+		<Cursor position="135713" topLine="4366" />
+	</File>
+	<File name="parser\parser.h" open="0" top="0" tabpos="0">
+		<Cursor position="283" topLine="1" />
+	</File>
+	<File name="parser\stdpas.c" open="0" top="0" tabpos="0">
+		<Cursor position="63339" topLine="1924" />
+	</File>
+	<File name="preverifier\check_code.c" open="0" top="0" tabpos="0">
+		<Cursor position="49082" topLine="1340" />
+	</File>
+	<File name="preverifier\classloader.c" open="0" top="0" tabpos="0">
+		<Cursor position="56758" topLine="1601" />
+	</File>
+	<File name="preverifier\classresolver.c" open="0" top="0" tabpos="0">
+		<Cursor position="33376" topLine="1126" />
+	</File>
+	<File name="preverifier\file.c" open="0" top="0" tabpos="0">
+		<Cursor position="25385" topLine="704" />
+	</File>
+	<File name="preverifier\inlinejsr.c" open="0" top="0" tabpos="0">
+		<Cursor position="725" topLine="11" />
+	</File>
+	<File name="preverifier\jar_support.c" open="0" top="0" tabpos="0">
+		<Cursor position="22004" topLine="658" />
+	</File>
+	<File name="preverifier\main.c" open="0" top="0" tabpos="0">
+		<Cursor position="9919" topLine="303" />
+	</File>
+	<File name="preverifier\path.h" open="0" top="0" tabpos="0">
+		<Cursor position="677" topLine="14" />
+	</File>
+	<File name="preverifier\sys_api.h" open="0" top="0" tabpos="0">
+		<Cursor position="1383" topLine="38" />
+	</File>
+	<File name="structures\block.c" open="0" top="0" tabpos="3">
+		<Cursor position="31421" topLine="1228" />
+	</File>
+	<File name="structures\block.h" open="0" top="0" tabpos="0">
+		<Cursor position="689" topLine="24" />
+	</File>
+	<File name="structures\identifier.c" open="0" top="0" tabpos="0">
+		<Cursor position="10071" topLine="423" />
+	</File>
+	<File name="structures\name_table.c" open="0" top="0" tabpos="0">
+		<Cursor position="3263" topLine="144" />
+	</File>
+	<File name="structures\name_table.h" open="0" top="0" tabpos="0">
+		<Cursor position="1056" topLine="15" />
+	</File>
+	<File name="structures\type.c" open="0" top="0" tabpos="3">
+		<Cursor position="1216" topLine="46" />
+	</File>
+	<File name="structures\type.h" open="0" top="0" tabpos="0">
+		<Cursor position="1739" topLine="50" />
+	</File>
+	<File name="structures\unit.c" open="0" top="0" tabpos="0">
+		<Cursor position="1211" topLine="45" />
+	</File>
+	<File name="structures\unit.h" open="0" top="0" tabpos="0">
+		<Cursor position="530" topLine="0" />
+	</File>
+	<File name="util\error.c" open="0" top="0" tabpos="2">
+		<Cursor position="7576" topLine="124" />
+	</File>
+	<File name="util\error.h" open="0" top="0" tabpos="0">
+		<Cursor position="290" topLine="0" />
+	</File>
+	<File name="util\memory.c" open="0" top="0" tabpos="0">
+		<Cursor position="1935" topLine="75" />
+	</File>
+	<File name="util\memory.h" open="0" top="0" tabpos="0">
+		<Cursor position="608" topLine="0" />
+	</File>
+	<File name="util\strings.c" open="0" top="0" tabpos="0">
+		<Cursor position="1738" topLine="166" />
+	</File>
+	<File name="util\strings.h" open="0" top="0" tabpos="0">
+		<Cursor position="552" topLine="17" />
+	</File>
+</CodeBlocks_layout_file>
