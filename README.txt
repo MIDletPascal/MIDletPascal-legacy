@@ -90,7 +90,7 @@ COMPILERS
 /MPC.3.1.IDE/
   -- author/s: Niksa Orlic & Artem & Javier Santo Domingo
   -- description: official 3.1 compiler source code; based on MPC.3.0.IDE; added infinite-loop support via the repeat/forever keywords and bugfixes (complex-type bidimensional array initialization index out-of-bound, etc)
-  -- date: 2010 Jul 10
+  -- date: 2010 July 10
   -- design: designed to work as an stand-alone command-line application operated by the 3.1 IDE
   -- preverificator: yes
   -- project: /MPC.3.1.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
@@ -108,7 +108,7 @@ COMPILERS
 /MPC.3.1.LINUX/
   -- author/s: Niksa Orlic & Artem & Javier Santo Domingo & Zoltán Várnagy
   -- description: 3.1 compiler source code for Linux (tested on PowerPC & x86); based on MPC.3.1.IDE
-  -- date: 2010 Jul 27
+  -- date: 2010 July 27
   -- design: designed to work as an stand-alone command-line application operated by user via command-line
   -- preverificator: yes
   -- project: /MPC.3.1.LINUX/mp3CC.cbp (Code::Blocks 8 / GNUCC)
@@ -126,7 +126,7 @@ COMPILERS
 /MPC.3.2.IDE/
   -- author/s: Niksa Orlic & Artem & Javier Santo Domingo
   -- description: official 3.2 compiler source code; based on MPC.3.1.IDE; added exit keyword support and C-style multiline comment support
-  -- date: 2010 Sep 25
+  -- date: 2010 September 25
   -- design: designed to work as an stand-alone command-line application operated by the 3.2 IDE
   -- preverificator: yes
   -- project: /MPC.3.2.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
@@ -135,11 +135,20 @@ COMPILERS
 /MPC.3.3.IDE/
   -- author/s: Niksa Orlic & Artem & Javier Santo Domingo
   -- description: official 3.3 compiler source code; based on MPC.3.2.IDE; added result keyword support, C-style shift operators support and bugfixes (constant assignment crash, etc)
-  -- date: 2011 Jan 08
+  -- date: 2011 January 08
   -- design: designed to work as an stand-alone command-line application operated by the 3.3 IDE
   -- preverificator: yes
   -- project: /MPC.3.3.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
   -- readme: /MPC.3.3.IDE/readme.txt (english)
+
+/MPC.3.4.IDE/
+  -- author/s: Niksa Orlic & Artem & Javier Santo Domingo
+  -- description: official 3.4 compiler source code; based on MPC.3.3.IDE; added Project Library Directory support via -p switch, imported the "ASM BLOCK" from the Artem's MPC.3.0.011.SIMPLE parser.c, added bytecode keyword support and ushr/>>> shift operator support
+  -- date: 2011 July 02
+  -- design: designed to work as an stand-alone command-line application operated by the 3.4 IDE
+  -- preverificator: yes
+  -- project: /MPC.3.4.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
+  -- readme: /MPC.3.4.IDE/readme.txt (english)
 
 
 RTL STUBS
@@ -174,4 +183,4 @@ The IDE source code (which includes the Preprocessor and the Command Line Tools)
 Enjoy,
 
 Javier Santo Domingo
-08.january.2011
+02.july.2011

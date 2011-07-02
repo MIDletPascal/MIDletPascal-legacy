@@ -1,13 +1,28 @@
 MIDletPascal History (since 2006)
 ---------------------------------
 
+2011-07-02
+Javier Santo Domingo released MIDletPascal 3.4 ALPHA
+url: http://sourceforge.net/projects/midletpascal
+
+2011-05-21
+Javier Santo Domingo released MIDletPascal 3.3 FINAL (after near 9144 total downloads since MP 3.0 ALPHA 1)
+url: http://sourceforge.net/projects/midletpascal
+
+2011-04-09
+Javier Santo Domingo released MIDletPascal 3.3 CANDIDATE (registering 723 downloads in six weeks)
+url: http://sourceforge.net/projects/midletpascal
+
+2011-03-05
+Javier Santo Domingo released MIDletPascal 3.3 BETA (registering 598 downloads in five weeks)
+url: http://sourceforge.net/projects/midletpascal
 
 2011-01-08
-Javier Santo Domingo released MIDletPascal 3.3 ALPHA
+Javier Santo Domingo released MIDletPascal 3.3 ALPHA (registering 1217 downloads in eight weeks)
 url: http://sourceforge.net/projects/midletpascal
 
 2010-11-13
-Javier Santo Domingo released MIDletPascal 3.2 FINAL (after near 5100 total downloads since MP 3.0 ALPHA 1)
+Javier Santo Domingo released MIDletPascal 3.2 FINAL (registering 1506 downloads in eight weeks)
 url: http://sourceforge.net/projects/midletpascal
 
 2010-10-30
@@ -23,7 +38,7 @@ Javier Santo Domingo released MIDletPascal 3.2 ALPHA (registering 259 downloads 
 url: http://sourceforge.net/projects/midletpascal
 
 2010-08-28
-Javier Santo Domingo released MIDletPascal 3.1 FINAL (after near 4100 total downloads since MP 3.0 ALPHA 1; the 3.1 FINAL version registers 592 downloads in a month)
+Javier Santo Domingo released MIDletPascal 3.1 FINAL (registering 592 downloads in four weeks)
 url: http://sourceforge.net/projects/midletpascal
 
 2010-08-21
@@ -54,7 +69,7 @@ Javier Santo Domingo released MIDletPascal 3.1 ALPHA (registering 249 downloads 
 url: http://sourceforge.net/projects/midletpascal
 
 2010-07-03
-Javier Santo Domingo released MIDletPascal 3.0 FINAL (after near 3200 downloads of the ALPHA-BETA-CANDIDATE phases; the 3.0 FINAL version registers 162 downloads in a week)
+Javier Santo Domingo released MIDletPascal 3.0 FINAL (registering 162 downloads in a week)
 url: http://sourceforge.net/projects/midletpascal
 
 2010-07-01
@@ -149,7 +164,7 @@ url: http://sourceforge.net/projects/midletpascal
 Wes Williams joined the MIDletPascal project
 
 2009-10-25
-Maxim Korzhavin joined the MIDletPascal project (at sourceforge)
+Maxim Korzhavin joined the MIDletPascal project
 
 2009-10-25
 Javier Santo Domingo started coding the MIDletPascal 3.0 IDE (since the MP 2.0 contained commercial components a new IDE is created in Turbo Delphi 2006 and based in an under-develop own work aimed to provide an advanced editor for FreePascal -currently the Tabitha project- and Delphi)
@@ -186,10 +201,6 @@ Artem started his modifications to the MIDletPascal compiler
 Serget Naydenov published a link to the source code in the boolean.name's forum
 url: http://forum.boolean.name/showpost.php?p=120646&postcount=45
 
-2009-09-28
-Maxim Korzhavin created another project site on Google Code
-url: http://code.google.com/p/midletpascal/
-
 2009-09-24
 Sergey Naydenov created the sourceforge.net MIDletPascal project
 url: http://sourceforge.net/projects/midletpascal
@@ -197,18 +208,6 @@ url: http://sourceforge.net/projects/midletpascal
 2009-09-12
 Sergey Naydenov announced he asked Niksa Orlic the source code of MP to release it open source
 url: http://forum.boolean.name/showpost.php?p=118324&postcount=9
-
-2008-07-01
-Alessandro Montoli announced in the midletpascal.com's forums that Niksa Orlic sent him the MIDletPascal project source code and repeat that he is about to create an open source project with it
-url: http://www.midletpascal.com/forum/viewtopic.php?t=4235&highlight=
-
-2008-06-17
-Alessandro Montoli announced in the midletpascal.com's forums that he asked Niksa Orlic the source code of the MIDletPascal project to release it open source
-url: http://www.midletpascal.com/forum/viewtopic.php?t=4235&highlight=
-
-2008-06-09
-Alessandro Montoli announced in the midletpascal.com's forums that he contacted Niksa Orlic
-url: http://www.midletpascal.com/forum/viewtopic.php?t=4234&highlight=
 
 2006-01-14
 Niksa Orlic released MIDletPascal 2.02 (this was the last public release for the old commercial project started in 2004)
