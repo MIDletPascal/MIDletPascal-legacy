@@ -1,8 +1,37 @@
 MIDletPascal History (since 2006)
 ---------------------------------
 
+
+2013-02-02
+Javier Santo Domingo released MIDletPascal 3.5 FINAL (after near 18632 total downloads since MP 3.0 ALPHA 1)
+url: http://sourceforge.net/projects/midletpascal
+
+2012-05-19
+Javier Santo Domingo released MIDletPascal 3.5 CANDIDATE (registering 3201 downloads in nine weeks)
+url: http://sourceforge.net/projects/midletpascal
+
+2012-03-17
+Javier Santo Domingo released MIDletPascal 3.5 BETA (registering 1366 downloads in nine weeks)
+url: http://sourceforge.net/projects/midletpascal
+
+2012-01-14
+Javier Santo Domingo released MIDletPascal 3.5 ALPHA (registering 1324 downloads in ten weeks)
+url: http://sourceforge.net/projects/midletpascal
+
+2011-11-05
+Javier Santo Domingo released MIDletPascal 3.4 FINAL (after near 12741 total downloads since MP 3.0 ALPHA 1)
+url: http://sourceforge.net/projects/midletpascal
+
+2011-09-24
+Javier Santo Domingo released MIDletPascal 3.4 CANDIATE (registering 913 downloads in six weeks)
+url: http://sourceforge.net/projects/midletpascal
+
+2011-08-20
+Javier Santo Domingo released MIDletPascal 3.4 BETA (registering 702 downloads in five weeks)
+url: http://sourceforge.net/projects/midletpascal
+
 2011-07-02
-Javier Santo Domingo released MIDletPascal 3.4 ALPHA
+Javier Santo Domingo released MIDletPascal 3.4 ALPHA (registering 1033 downloads in seven weeks)
 url: http://sourceforge.net/projects/midletpascal
 
 2011-05-21

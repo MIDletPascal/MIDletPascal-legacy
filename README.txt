@@ -150,6 +150,15 @@ COMPILERS
   -- project: /MPC.3.4.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
   -- readme: /MPC.3.4.IDE/readme.txt (english)
 
+/MPC.3.5.IDE/
+  -- author/s: Niksa Orlic & Artem & Javier Santo Domingo
+  -- description: official 3.5 compiler source code; based on MPC.3.4.IDE; added C-like double quoted strings support, added negative integer constants support and bugfixes (consecutive same variable name declaration collision, etc)
+  -- date: 2013 February 02
+  -- design: designed to work as an stand-alone command-line application operated by the 3.5 IDE
+  -- preverificator: yes
+  -- project: /MPC.3.5.IDE/mp3CC.cbp (Code::Blocks 8 / GNUCC)
+  -- readme: /MPC.3.5.IDE/readme.txt (english)
+
 
 RTL STUBS
 ---------
@@ -183,4 +192,4 @@ The IDE source code (which includes the Preprocessor and the Command Line Tools)
 Enjoy,
 
 Javier Santo Domingo
-02.july.2011
+02.february.2013
